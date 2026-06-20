@@ -54,7 +54,7 @@ header{
 }
 #duchef img{
   
-    width: 295px;px;
+    width: 295px;
     height:295px;
     border-radius: 50%;
     object-fit: cover;/*Impede que a imagem fique distorcida.*/
@@ -125,7 +125,7 @@ section{
     color: white;
     margin-left: 70px;
     font-size: 1.5rem;
-    //
+    
 }
 
 .master{
