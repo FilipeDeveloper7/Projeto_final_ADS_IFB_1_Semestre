@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Pinyon+Script&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+/*--------------------------------------------------------------------------------------- parte Filipe -------------------------------------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    background-image: url('./imagens/banner1.1.jpg');
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;   
+    width: 100%;
+    height: 350px;
+}
+.menu_principal{
+    background-color: #592c22;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu_principal ul{
+    display: flex;
+    list-style: none;    
+}
+.menu_principal a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    font-family:Yanone Kaffeesatz;
+    font-style: regular;
+    font-size: 1.5em;
+    font-weight: normal;    
+}
+.menu_principal a:hover{
+    background-color: black;
+    color: green;
+    border-radius: 25px;
+    transition-duration: .5s;
+}
+
+#duchef{
+    background-color: black;
+    display: flex;
+    justify-content: center;/*centraliza na horizontal*/
+    align-items: center;/*centraliza na vertical*/
+    padding: 70px;
+}
+#duchef img{
+  
+    width: 295px;px;
+    height:295px;
+    border-radius: 50%;
+    object-fit: cover;/*Impede que a imagem fique distorcida.*/
+  
+}
+section{
+    background-color: black;
+    display: flex;
+    
+}
+#menu1{
+    width: 30%;
+    height: 730px;
+    color: white;
+   
+     
+}
+#menu1 ul li{
+   padding: 20px;
+   font-size: larger;
+    
+}
+#menu1 ul li.item_destaque{ /*coluna de menu 1*/
+    background-color: #592c22;
+    padding-bottom: 28px;
+    margin: 60px;
+    font-family:Yanone Kaffeesatz;
+    font-style: regular;
+    font-size: 1.6rem;
+    border-radius: 100px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu2{
+    background-color: #f2f2f2;
+    width: 40%;
+    height: 480px;
+    margin-left: 50px;
+    font-size: 1rem;
+    padding-top: 20px;
+    font-family:Yanone Kaffeesatz;
+    font-style: regular;
+    border-radius:50px;
+}
+
+
+#menu2 h1{
+    text-align: center;
+    font-family:Yanone Kaffeesatz;
+    font-style: regular;
+    margin-top: 30px;
+   
+}
+#menu2 ul li{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 2.2em;
+    text-align: center;
+    list-style-type: disc;
+    list-style-position: inside;   
+}
+
+
+#menu3{
+    width: 30%;
+    height: 500px;
+    color: white;
+    margin-left: 70px;
+    font-size: 1.5rem;
+    //
+}
+
+.master{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    margin-left: 80px;
+    align-items: center;
+}
+
+.emcasa{
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    font-family:Yanone Kaffeesatz;
+    font-style: regular;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+
+#botaozap{ 
+display: flex;
+margin: 8px;
+margin-left:90px;
+width: 140px;
+height:70px;
+background-color: #0fa523;
+border-radius: 40px;
+   
+  
+}    
+.pedido{
+   color: white;
+   padding-top: 20px;
+   padding-left: 28px;
+   font-family:Yanone Kaffeesatz;
+   font-style: regular;
+   font-size: 1.6rem;
+   
+   
+
+}
+.zap{
+    width: 30px;
+    height: 30px;
+    padding-top: 4px ;
+    padding-left:2px ;
+  
+   
+   
+}
+
+#delivery{
+    display: flex;
+    padding-top: 40px;
+   
+}
+
+.delivery1{
+   
+    width: 50px ;
+    height: 50px;
+    
+}
+.delivery2{
+    padding-left: 20px;
+    padding-top: 17px;
+    font-family:Yanone Kaffeesatz;
+   font-style: regular;
+   font-size: 1.8rem;
+     
+}
+
+#icons{
+     display: flex;
+     padding-top: 2px;
+     margin-left: 110px;
+     gap: 15px;
+    
+}
+.nove{
+   width: 50px;
+   height: 50px;
+   border-radius:50px;
+   margin-top: 10px;
+     
+    
+    
+}
+.food{ 
+width: 50px;
+height: 50px;
+border-radius:50px;  
+margin-top: 10px;  
+    
+}
+
+
+#banner{
+    width: 100%;
+    height: 350px;
+}
+
+/*-------------------------------------------------------------------------------------- parte jaqueline ---------------------------------------------------------------------------------------*/
+
+article{/*coonfigurações do article*/
+
+    background-color: black;
+    padding-bottom: 46px;
+
+}
+
+#banner2{
+width: 100%;
+
+}
+
+
+#container{ /*inicio do bloco de imagens por div container*/
+
+    
+    display: flex; /*utilização do flexbox*/
+    justify-content: center;
+    padding-top:5%;
+     border-radius: 30%;
+   
+
+
+}
+.card{ /*configurando os cards das imagens*/
+   
+   padding: 65px;
+   display: flex;
+   height: 400px;
+  
+}
+.card img{
+    width: 200px;
+}
+    
+.paragrafo{  /*configurando o parágrafo embaixo dos cards das imagens*/
+
+ color:#f2f2f2;
+ padding: 12px;
+ font-family: Playwrite US Trad;
+ font-size: 2rem;
+ font-style: Thin;
+ text-align:center;
+
+}
+
+/*-------------------------------------------------------------------------------------- parte Rodrigo ---------------------------------------------------------------------------------------*/
