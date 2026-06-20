@@ -228,7 +228,7 @@ width: 100%;
     display: flex; /*utilização do flexbox*/
     justify-content: center;
     padding-top:5%;
-     border-radius: 30%;
+     
 }
 .card{ /*configurando os cards das imagens*/
    
