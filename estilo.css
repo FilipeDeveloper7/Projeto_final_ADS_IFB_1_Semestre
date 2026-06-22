@@ -73,9 +73,11 @@ section{
 #menu1{
     width: 30%;
     height: 730px;
+    color: white;       
+}
+section a{
+    text-decoration: none;
     color: white;
-   
-     
 }
 #menu1 ul li{
    padding: 20px;
@@ -86,14 +88,13 @@ section{
     background-color: #592c22;
     padding-bottom: 28px;
     margin: 60px;
-    font-family:Yanone Kaffeesatz;
+    font-family:"Yanone Kaffeesatz";
     font-style: regular;
     font-size: 1.6rem;
     border-radius: 100px;
     text-align: center;
     list-style-type: none;
 }
-
 #menu2{
     background-color: #f2f2f2;
     width: 40%;
@@ -105,14 +106,11 @@ section{
     font-style: regular;
     border-radius:50px;
 }
-
-
 #menu2 h1{
     text-align: center;
     font-family:Yanone Kaffeesatz;
     font-style: regular;
-    margin-top: 30px;
-   
+    margin-top: 30px;  
 }
 #menu2 ul li{
     padding: 20px;
@@ -301,8 +299,51 @@ width: 100%;
     margin-top: 20px;
     padding: 20px;
 }
+#contato{
+    background-color: white;
+    color: green;
+    display: flex;
+    border-top: 1px solid green;
+  
+}
+#contato div {
+    width: 10%;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    font-family:"Yanone Kaffeesatz" ;
+    font-size: 1.2em; 
+}
+#contato h2 {
+    padding: 20px;
+}
+#contato p {
+    text-align: justify;
+    margin-top: 10px;    
+}
+address{
+    margin-top: 10px;
+}
+section form{
+    background-color: white;
+    width: 50%;
+    height: 600px;
+    margin-left: -10%;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px green;
+    padding: 20px;
+}
+div ul li {
+    list-style-type: circle;
+    padding: 10px;
+}
+
 footer{
     background-color: #592c22;
+    font-family: "Yanone Kaffeesatz";
     width: 100%;
     height: 40px;
     text-align: center;
